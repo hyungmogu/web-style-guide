@@ -1,11 +1,16 @@
 /*This file contains global variables, extends, mixins, and functions*/
 * {
   font-family: Helvetica, Arial, sans-serif;
-  color: #A1A1A1; }
+  color: #757575; }
 
 a {
   color: #51DDFC;
   text-decoration: none; }
+
+input {
+  border: none;
+  font-weight: bold;
+  color: #353535; }
 
 .nav {
   margin: 0;
@@ -13,7 +18,7 @@ a {
   list-style-type: none; }
 
 .nav__item a {
-  color: #A1A1A1;
+  color: #757575;
   display: inline-block;
   padding: 10px; }
 
@@ -63,5 +68,9 @@ a {
 .img--frame {
   padding: 10px;
   border: solid 1px #A1A1A1; }
+
+.form__input {
+  border-bottom: solid 5px #58E1C1;
+  padding: 10px 15px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,6 +14,12 @@ a {
   text-decoration: none;
 }
 
+input {
+  border: none;
+  font-weight: bold;
+  color: darken($silver-chalice, 25%);
+}
+
 // Navigation
 .nav {
   margin: 0;
@@ -84,4 +90,11 @@ a {
 .img--frame {
   padding: 10px;
   border: solid 1px #A1A1A1;
+}
+
+
+// Forms
+.form__input {
+  border-bottom: solid 5px $viking;
+  padding: 10px 15px;
 }
