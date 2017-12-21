@@ -1,0 +1,25 @@
+
+// Descriptive Colors
+$emerald: #63CC82;
+$sunglo: #E4757A;
+$coral: #FD7856;
+$purple-mountain-majesty: #927BC1;
+$malibu: #51DDFC;
+$viking: #58E1C1;
+$silver-chalice: #757575;
+
+// Functional Colors
+$color-button-default: $coral;
+$color-button-success: $emerald;
+$color-button-error: $sunglo;
+$color-button-warning: $malibu;
+$color-button-info: $purple-mountain-majesty;
+
+$color-text-primary: $silver-chalice;
+
+// Font Stacks
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+
+//Media Queries
+$brk-narrow: '(max-width: 768px)';
+$brk-wide: '(max-width: 1400px)';
