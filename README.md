@@ -1,8 +1,8 @@
 # Team Treehouse FETD 5th Project: Web Style Guide
 
 This is 5th project for Team Treehouse's Tech degree. Here, the author is assigned
-the task of building and refactoring CSS3 codes. This is to ensure that the code
-is scalable and maintainable, and that it won't create headaches when maintaining them.
+the task of building and refactoring CSS3 codes. The purpose of this is to ensure that the code
+is scalable and maintainable, and that it won't create headaches when looking at them.
 
 The rubric of this project can be found here:
 https://drive.google.com/open?id=1EFBXVe23-DvBhsQYXKH_6y_ojHe7xvXj
