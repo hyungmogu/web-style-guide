@@ -2,6 +2,10 @@
 * {
   font-family: Helvetica, Arial, sans-serif; }
 
+a {
+  color: #51DDFC;
+  text-decoration: none; }
+
 .headline--primary {
   color: #58E1C1; }
 
