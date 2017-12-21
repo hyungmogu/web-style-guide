@@ -1,3 +1,50 @@
 @import 'utilities/index';
 @import 'base/index';
 @import 'components/index';
+
+* {
+  font-family: $stack-sans-serif;
+}
+
+
+// Buttons
+
+.btn--default {
+  border-style: none;
+  background-color: #51DDFC;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.btn--success {
+  border-style: none;
+  background-color: #63CC82;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.btn--info {
+  border-style: none;
+  background-color: #927BC1;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.btn--error {
+  border-style: none;
+  background-color: #E4757A;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.btn--warning {
+  border-style: none;
+  background-color: #FD7856;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
