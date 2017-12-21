@@ -17,7 +17,7 @@ a {
 input {
   border: none;
   font-weight: bold;
-  color: darken($silver-chalice, 25%);
+  color: darken($silver-chalice, 15%);
 }
 
 // Navigation
@@ -48,10 +48,15 @@ input {
 
 .btn--default {
   border-style: none;
-  background-color: #51DDFC;
+  background-color: $malibu;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($malibu, 15%);
+  }
 }
 
 .btn--success {
@@ -60,30 +65,50 @@ input {
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($emerald, 15%);
+  }
 }
 
 .btn--info {
   border-style: none;
-  background-color: #927BC1;
+  background-color: $purple-mountain-majesty;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($purple-mountain-majesty, 15%);
+  }
 }
 
 .btn--error {
   border-style: none;
-  background-color: #E4757A;
+  background-color: $sunglo;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($sunglo, 15%);
+  }
 }
 
 .btn--warning {
   border-style: none;
-  background-color: #FD7856;
+  background-color: $coral;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($coral, 15%);
+  }
 }
 
 // Images
