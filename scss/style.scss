@@ -4,6 +4,7 @@
 
 * {
   font-family: $stack-sans-serif;
+  color: $color-text-primary;
 }
 
 
@@ -11,6 +12,25 @@
 a {
   color: $malibu;
   text-decoration: none;
+}
+
+// Navigation
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__item a {
+  color: $color-text-primary;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav__item a:hover {
+  color: white;
+  background-color: $viking;
+  border-radius: 5px;
 }
 
 // Fonts

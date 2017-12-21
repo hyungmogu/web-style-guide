@@ -1,10 +1,26 @@
 /*This file contains global variables, extends, mixins, and functions*/
 * {
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: Helvetica, Arial, sans-serif;
+  color: #A1A1A1; }
 
 a {
   color: #51DDFC;
   text-decoration: none; }
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.nav__item a {
+  color: #A1A1A1;
+  display: inline-block;
+  padding: 10px; }
+
+.nav__item a:hover {
+  color: white;
+  background-color: #58E1C1;
+  border-radius: 5px; }
 
 .headline--primary {
   color: #58E1C1; }
