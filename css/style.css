@@ -12,6 +12,9 @@ input {
   font-weight: bold;
   color: #4f4f4f; }
 
+.link {
+  font-weight: bold; }
+
 .nav {
   margin: 0;
   padding: 0;
