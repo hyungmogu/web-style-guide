@@ -1,3 +1,130 @@
 @import 'utilities/index';
 @import 'base/index';
 @import 'components/index';
+
+* {
+  font-family: $stack-sans-serif;
+  color: $color-text-primary;
+}
+
+
+// Base style
+a {
+  color: $malibu;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  font-weight: bold;
+  color: darken($silver-chalice, 15%);
+}
+
+// Link
+.link {
+  font-weight: bold;
+}
+
+// Navigation
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__item a {
+  color: $color-text-primary;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav__item a:hover {
+  color: white;
+  background-color: $viking;
+  border-radius: 5px;
+}
+
+// Fonts
+.headline--primary {
+  color: $viking;
+}
+
+// Buttons
+
+.btn--default {
+  border-style: none;
+  background-color: $malibu;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($malibu, 15%);
+  }
+}
+
+.btn--success {
+  border-style: none;
+  background-color: #63CC82;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($emerald, 15%);
+  }
+}
+
+.btn--info {
+  border-style: none;
+  background-color: $purple-mountain-majesty;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($purple-mountain-majesty, 15%);
+  }
+}
+
+.btn--error {
+  border-style: none;
+  background-color: $sunglo;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($sunglo, 15%);
+  }
+}
+
+.btn--warning {
+  border-style: none;
+  background-color: $coral;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($coral, 15%);
+  }
+}
+
+// Images
+.img--frame {
+  padding: 10px;
+  border: solid 1px #A1A1A1;
+}
+
+
+// Forms
+.form__input {
+  border-bottom: solid 5px $viking;
+  padding: 10px 15px;
+}
