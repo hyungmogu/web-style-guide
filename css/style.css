@@ -236,4 +236,10 @@ nav[role="navigation"] {
 .form__label--hidden {
   display: none; }
 
+.blockquote {
+  border-left: solid 6px #58E1C1;
+  padding: 0 1.5em;
+  font-size: 1.5em;
+  font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */

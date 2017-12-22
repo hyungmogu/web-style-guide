@@ -320,3 +320,13 @@ nav[role="navigation"] {
 .form__label--hidden {
   display: none;
 }
+
+
+// blockquote
+
+.blockquote {
+  border-left: solid 6px $viking;
+  padding: 0 1.5em;
+  font-size: 1.5em;
+  font-style: italic;
+}
