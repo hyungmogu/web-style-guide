@@ -41,6 +41,21 @@ nav[role="navigation"] {
   background-color: $viking;
 }
 
+.grid__col--9 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 75%;
+  margin: 0 10px;
+}
+
+.grid__col--9:first-child {
+  margin-left: 0;
+}
+
+.grid__col--9:last-child {
+  margin-right: 0;
+}
+
 .grid__col--8 {
   padding: 10px 10px;
   border-radius: 5px;
