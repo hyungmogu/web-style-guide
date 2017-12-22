@@ -12,6 +12,9 @@ input {
   font-weight: bold;
   color: #4f4f4f; }
 
+nav[role="navigation"] {
+  padding: 20.5px 0; }
+
 .grid__row {
   margin-bottom: 50px;
   display: flex; }
@@ -23,6 +26,18 @@ input {
 
 .grid__col--12.theme__colors {
   background-color: #58E1C1; }
+
+.grid__col--9 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 75%;
+  margin: 0 10px; }
+
+.grid__col--9:first-child {
+  margin-left: 0; }
+
+.grid__col--9:last-child {
+  margin-right: 0; }
 
 .grid__col--8 {
   padding: 10px 10px;
@@ -124,7 +139,15 @@ input {
 .nav {
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  display: flex; }
+
+.nav__item {
+  margin: 0 10px; }
+  .nav__item:first-child {
+    margin: 0; }
+  .nav__item:last-child {
+    margin: 0; }
 
 .nav__item a {
   color: #757575;

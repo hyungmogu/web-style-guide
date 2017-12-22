@@ -20,6 +20,10 @@ input {
   color: darken($silver-chalice, 15%);
 }
 
+nav[role="navigation"] {
+  padding: 20.5px 0;
+}
+
 // Grid
 
 .grid__row {
@@ -35,6 +39,21 @@ input {
 
 .grid__col--12.theme__colors {
   background-color: $viking;
+}
+
+.grid__col--9 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 75%;
+  margin: 0 10px;
+}
+
+.grid__col--9:first-child {
+  margin-left: 0;
+}
+
+.grid__col--9:last-child {
+  margin-right: 0;
 }
 
 .grid__col--8 {
@@ -166,6 +185,18 @@ input {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+}
+
+.nav__item {
+  margin: 0 10px;
+  &:first-child {
+    margin: 0;
+  }
+
+  &:last-child {
+    margin: 0;
+  }
 }
 
 .nav__item a {
