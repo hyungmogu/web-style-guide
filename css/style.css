@@ -4,7 +4,6 @@
   color: #757575; }
 
 a {
-  color: #51DDFC;
   text-decoration: none; }
 
 input {
@@ -12,8 +11,69 @@ input {
   font-weight: bold;
   color: #4f4f4f; }
 
+.grid__col--12 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%; }
+
+.grid__col--12.theme__colors {
+  background-color: #58E1C1; }
+
+.grid__col--8 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--8.theme__colors {
+  background-color: #FD7856; }
+
+.grid__col--7 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--7.theme__colors {
+  background-color: #eca0a3; }
+
+.grid__col--6 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--6.theme__colors {
+  background-color: #03a6ca; }
+
+.grid__col--5 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--5.theme__colors {
+  background-color: #63CC82; }
+
+.grid__col--4 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--4.theme__colors {
+  background-color: #51DDFC; }
+
+.grid__col--3 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.grid__col--3.theme__colors {
+  background-color: #bdafd9; }
+
 .link {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #51DDFC; }
+
+.link:hover {
+  color: #06cefb; }
 
 .nav {
   margin: 0;

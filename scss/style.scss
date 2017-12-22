@@ -10,7 +10,6 @@
 
 // Base style
 a {
-  color: $malibu;
   text-decoration: none;
 }
 
@@ -20,9 +19,87 @@ input {
   color: darken($silver-chalice, 15%);
 }
 
+// Grid
+
+.grid__col--12 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.grid__col--12.theme__colors {
+  background-color: $viking;
+}
+
+.grid__col--8 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--8.theme__colors {
+  background-color: $coral;
+}
+
+.grid__col--7 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--7.theme__colors {
+  background-color: lighten($sunglo, 10%);
+}
+
+.grid__col--6 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--6.theme__colors {
+  background-color: darken($malibu, 25%);
+}
+
+.grid__col--5 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--5.theme__colors {
+  background-color: $emerald;
+}
+
+.grid__col--4 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--4.theme__colors {
+  background-color: $malibu;
+}
+
+.grid__col--3 {
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid__col--3.theme__colors {
+  background-color: lighten($purple-mountain-majesty, 15%);
+}
+
 // Link
 .link {
   font-weight: bold;
+  color: $malibu;
+}
+
+.link:hover {
+  color: darken($malibu, 15%);
 }
 
 // Navigation
