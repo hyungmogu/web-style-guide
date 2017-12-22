@@ -1,7 +1,8 @@
 /*This file contains global variables, extends, mixins, and functions*/
 * {
   font-family: Helvetica, Arial, sans-serif;
-  color: #757575; }
+  color: #757575;
+  box-sizing: border-box; }
 
 a {
   text-decoration: none; }
@@ -11,10 +12,13 @@ input {
   font-weight: bold;
   color: #4f4f4f; }
 
+.grid__row {
+  margin-bottom: 50px;
+  display: flex; }
+
 .grid__col--12 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box;
   width: 100%; }
 
 .grid__col--12.theme__colors {
@@ -23,7 +27,14 @@ input {
 .grid__col--8 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 66.666666%;
+  margin: 0 10px; }
+
+.grid__col--8:first-child {
+  margin-left: 0; }
+
+.grid__col--8:last-child {
+  margin-right: 0; }
 
 .grid__col--8.theme__colors {
   background-color: #FD7856; }
@@ -31,7 +42,14 @@ input {
 .grid__col--7 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 58.333333%;
+  margin: 0 10px; }
+
+.grid__col--7:first-child {
+  margin-left: 0; }
+
+.grid__col--7:last-child {
+  margin-right: 0; }
 
 .grid__col--7.theme__colors {
   background-color: #eca0a3; }
@@ -39,7 +57,14 @@ input {
 .grid__col--6 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 50%;
+  margin: 0 10px; }
+
+.grid__col--6:first-child {
+  margin-left: 0; }
+
+.grid__col--6:last-child {
+  margin-right: 0; }
 
 .grid__col--6.theme__colors {
   background-color: #03a6ca; }
@@ -47,7 +72,14 @@ input {
 .grid__col--5 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 41.66666666%;
+  margin: 0 10px; }
+
+.grid__col--5:first-child {
+  margin-left: 0; }
+
+.grid__col--5:last-child {
+  margin-right: 0; }
 
 .grid__col--5.theme__colors {
   background-color: #63CC82; }
@@ -55,7 +87,14 @@ input {
 .grid__col--4 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 30%;
+  margin: 0 10px; }
+
+.grid__col--4:first-child {
+  margin-left: 0; }
+
+.grid__col--4:last-child {
+  margin-right: 0; }
 
 .grid__col--4.theme__colors {
   background-color: #51DDFC; }
@@ -63,7 +102,14 @@ input {
 .grid__col--3 {
   padding: 10px 10px;
   border-radius: 5px;
-  box-sizing: border-box; }
+  width: 40%;
+  margin: 0 10px; }
+
+.grid__col--3:first-child {
+  margin-left: 0; }
+
+.grid__col--3:last-child {
+  margin-right: 0; }
 
 .grid__col--3.theme__colors {
   background-color: #bdafd9; }
