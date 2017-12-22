@@ -283,6 +283,15 @@ nav[role="navigation"] {
   }
 }
 
+// Buttons - Style specifc to this UI Kit
+
+#buttons ~ .grid__row {
+  .grid__col--12 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 // Images
 .img--frame {
   padding: 10px;
@@ -295,7 +304,6 @@ nav[role="navigation"] {
   display: block;
   margin: 0 auto;
 }
-
 
 // Forms
 .form {
@@ -327,6 +335,6 @@ nav[role="navigation"] {
 .blockquote {
   border-left: solid 6px $viking;
   padding: 0 1.5em;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-style: italic;
 }
