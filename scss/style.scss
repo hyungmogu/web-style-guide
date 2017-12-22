@@ -188,6 +188,17 @@ nav[role="navigation"] {
   display: flex;
 }
 
+.nav__item {
+  margin: 0 10px;
+  &:first-child {
+    margin: 0;
+  }
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
 .nav__item a {
   color: $color-text-primary;
   display: inline-block;

@@ -142,6 +142,13 @@ nav[role="navigation"] {
   list-style-type: none;
   display: flex; }
 
+.nav__item {
+  margin: 0 10px; }
+  .nav__item:first-child {
+    margin: 0; }
+  .nav__item:last-child {
+    margin: 0; }
+
 .nav__item a {
   color: #757575;
   display: inline-block;
