@@ -20,6 +20,10 @@ input {
   color: darken($silver-chalice, 15%);
 }
 
+nav[role="navigation"] {
+  padding: 20.5px 0;
+}
+
 // Grid
 
 .grid__row {

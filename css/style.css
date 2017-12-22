@@ -12,6 +12,9 @@ input {
   font-weight: bold;
   color: #4f4f4f; }
 
+nav[role="navigation"] {
+  padding: 20.5px 0; }
+
 .grid__row {
   margin-bottom: 50px;
   display: flex; }
