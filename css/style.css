@@ -87,7 +87,7 @@ input {
 .grid__col--4 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 30%;
+  width: 33.3333333%;
   margin: 0 10px; }
 
 .grid__col--4:first-child {
