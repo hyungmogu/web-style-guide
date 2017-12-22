@@ -220,4 +220,7 @@ nav[role="navigation"] {
   border-bottom: solid 5px #58E1C1;
   padding: 10px 15px; }
 
+.form__label--hidden {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
