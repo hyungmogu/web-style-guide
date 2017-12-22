@@ -35,6 +35,10 @@ nav[role="navigation"] {
   padding: 10px 10px;
   border-radius: 5px;
   width: 100%;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--12.theme__colors {
@@ -46,6 +50,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 75%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--9:first-child {
@@ -61,6 +69,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 66.666666%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--8:first-child {
@@ -80,6 +92,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 58.333333%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--7:first-child {
@@ -99,6 +115,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 50%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--6:first-child {
@@ -118,6 +138,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 41.66666666%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--5:first-child {
@@ -137,6 +161,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 33.3333333%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--4:first-child {
@@ -156,6 +184,10 @@ nav[role="navigation"] {
   border-radius: 5px;
   width: 40%;
   margin: 0 10px;
+
+  &.centered {
+    margin: 0 auto !important;
+  }
 }
 
 .grid__col--3:first-child {
