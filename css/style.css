@@ -35,7 +35,8 @@ nav[role="navigation"] {
       width: 100%; } }
 
 .grid__col--12.theme__colors {
-  background-color: #58E1C1; }
+  background-color: #58E1C1;
+  text-align: center; }
 
 .grid__col--9 {
   padding: 10px 10px;
@@ -48,6 +49,9 @@ nav[role="navigation"] {
     .grid__col--9 {
       margin: 0;
       width: 100%; } }
+
+.grid__col--8.theme__colors {
+  text-align: center; }
 
 .grid__col--9:first-child {
   margin-left: 0; }
@@ -74,7 +78,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--8.theme__colors {
-  background-color: #FD7856; }
+  background-color: #FD7856;
+  text-align: center; }
 
 .grid__col--7 {
   padding: 10px 10px;
@@ -95,7 +100,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--7.theme__colors {
-  background-color: #eca0a3; }
+  background-color: #eca0a3;
+  text-align: center; }
 
 .grid__col--6 {
   padding: 10px 10px;
@@ -116,7 +122,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--6.theme__colors {
-  background-color: #03a6ca; }
+  background-color: #03a6ca;
+  text-align: center; }
 
 .grid__col--5 {
   padding: 10px 10px;
@@ -137,7 +144,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--5.theme__colors {
-  background-color: #63CC82; }
+  background-color: #63CC82;
+  text-align: center; }
 
 .grid__col--4 {
   padding: 10px 10px;
@@ -158,7 +166,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--4.theme__colors {
-  background-color: #51DDFC; }
+  background-color: #51DDFC;
+  text-align: center; }
 
 .grid__col--3 {
   padding: 10px 10px;
@@ -179,7 +188,8 @@ nav[role="navigation"] {
   margin-right: 0; }
 
 .grid__col--3.theme__colors {
-  background-color: #bdafd9; }
+  background-color: #bdafd9;
+  text-align: center; }
 
 .link {
   font-weight: bold;
