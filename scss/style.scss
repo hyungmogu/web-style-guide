@@ -426,6 +426,10 @@ nav[role="navigation"] {
   border: solid 1px #A1A1A1;
   display: block;
   margin: 0 auto;
+
+  @media #{$brk-mobile} {
+    width: 100%;
+  }
 }
 
 .img--avatar {
