@@ -53,6 +53,7 @@ nav[role="navigation"] {
 
 .grid__col--12.theme__colors {
   background-color: $viking;
+  text-align: center;
 }
 
 .grid__col--9 {
@@ -70,6 +71,10 @@ nav[role="navigation"] {
     width: 100%;
   }
 
+}
+
+.grid__col--8.theme__colors {
+  text-align: center;
 }
 
 .grid__col--9:first-child {
@@ -106,6 +111,7 @@ nav[role="navigation"] {
 
 .grid__col--8.theme__colors {
   background-color: $coral;
+  text-align: center;
 }
 
 .grid__col--7 {
@@ -134,6 +140,7 @@ nav[role="navigation"] {
 
 .grid__col--7.theme__colors {
   background-color: lighten($sunglo, 10%);
+  text-align: center;
 }
 
 .grid__col--6 {
@@ -162,6 +169,7 @@ nav[role="navigation"] {
 
 .grid__col--6.theme__colors {
   background-color: darken($malibu, 25%);
+  text-align: center;
 }
 
 .grid__col--5 {
@@ -190,6 +198,7 @@ nav[role="navigation"] {
 
 .grid__col--5.theme__colors {
   background-color: $emerald;
+  text-align: center;
 }
 
 .grid__col--4 {
@@ -218,6 +227,7 @@ nav[role="navigation"] {
 
 .grid__col--4.theme__colors {
   background-color: $malibu;
+  text-align: center;
 }
 
 .grid__col--3 {
@@ -246,6 +256,7 @@ nav[role="navigation"] {
 
 .grid__col--3.theme__colors {
   background-color: lighten($purple-mountain-majesty, 15%);
+  text-align: center;
 }
 
 // Link
