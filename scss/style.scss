@@ -59,6 +59,8 @@ nav[role="navigation"] {
 .grid__col--12.theme__colors {
   background-color: $viking;
   text-align: center;
+  justify-content: none;
+  display:block;
 }
 
 .grid__col--9 {
@@ -413,7 +415,7 @@ nav[role="navigation"] {
 
 // Buttons - Style specifc to this UI Kit
 
-#buttons ~ .grid__row {
+#buttons + .grid__row {
   .grid__col--12 {
     display: flex;
     justify-content: space-between;
