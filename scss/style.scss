@@ -29,6 +29,11 @@ nav[role="navigation"] {
 .grid__row {
   margin-bottom: 50px;
   display: flex;
+
+  @media #{$brk-narrow} {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 }
 
 .grid__col--12 {
@@ -38,6 +43,11 @@ nav[role="navigation"] {
 
   &.centered {
     margin: 0 auto !important;
+  }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -54,6 +64,12 @@ nav[role="navigation"] {
   &.centered {
     margin: 0 auto !important;
   }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
+  }
+
 }
 
 .grid__col--9:first-child {
@@ -72,6 +88,11 @@ nav[role="navigation"] {
 
   &.centered {
     margin: 0 auto !important;
+  }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -96,6 +117,11 @@ nav[role="navigation"] {
   &.centered {
     margin: 0 auto !important;
   }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .grid__col--7:first-child {
@@ -118,6 +144,11 @@ nav[role="navigation"] {
 
   &.centered {
     margin: 0 auto !important;
+  }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -142,6 +173,11 @@ nav[role="navigation"] {
   &.centered {
     margin: 0 auto !important;
   }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .grid__col--5:first-child {
@@ -165,6 +201,11 @@ nav[role="navigation"] {
   &.centered {
     margin: 0 auto !important;
   }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .grid__col--4:first-child {
@@ -187,6 +228,11 @@ nav[role="navigation"] {
 
   &.centered {
     margin: 0 auto !important;
+  }
+
+  @media #{$brk-narrow} {
+      margin: 0;
+      width: 100%;
   }
 }
 
@@ -218,6 +264,10 @@ nav[role="navigation"] {
   padding: 0;
   list-style-type: none;
   display: flex;
+
+  @media #{$brk-narrow} {
+    flex-direction: column;
+  }
 }
 
 .nav__item {
@@ -229,12 +279,22 @@ nav[role="navigation"] {
   &:last-child {
     margin: 0;
   }
+
+  @media #{$brk-narrow} {
+    margin: 0
+  }
 }
 
 .nav__item a {
   color: $color-text-primary;
   display: inline-block;
   padding: 10px;
+  text-align: center;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 15px 10px;
+  }
 }
 
 .nav__item a:hover {
@@ -261,6 +321,10 @@ nav[role="navigation"] {
   &:hover {
     background-color: darken($malibu, 15%);
   }
+
+  @media #{$brk-narrow} {
+    margin-bottom: 20px;
+  }
 }
 
 .btn--success {
@@ -273,6 +337,10 @@ nav[role="navigation"] {
 
   &:hover {
     background-color: darken($emerald, 15%);
+  }
+
+  @media #{$brk-narrow} {
+    margin-bottom: 20px;
   }
 }
 
@@ -287,6 +355,10 @@ nav[role="navigation"] {
   &:hover {
     background-color: darken($purple-mountain-majesty, 15%);
   }
+
+  @media #{$brk-narrow} {
+    margin-bottom: 20px;
+  }
 }
 
 .btn--error {
@@ -299,6 +371,10 @@ nav[role="navigation"] {
 
   &:hover {
     background-color: darken($sunglo, 15%);
+  }
+
+  @media #{$brk-narrow} {
+    margin-bottom: 20px;
   }
 }
 
@@ -313,6 +389,10 @@ nav[role="navigation"] {
   &:hover {
     background-color: darken($coral, 15%);
   }
+
+  @media #{$brk-narrow} {
+    margin-bottom: 20px;
+  }
 }
 
 // Buttons - Style specifc to this UI Kit
@@ -321,6 +401,11 @@ nav[role="navigation"] {
   .grid__col--12 {
     display: flex;
     justify-content: space-between;
+
+    @media #{$brk-narrow} {
+      flex-direction:column;
+      justify-content: none;
+    }
   }
 }
 
@@ -369,4 +454,8 @@ nav[role="navigation"] {
   padding: 0 1.5em;
   font-size: 1.75em;
   font-style: italic;
+
+  @media #{$brk-narrow} {
+    padding: 0 0 0 1.0em;
+  }
 }
