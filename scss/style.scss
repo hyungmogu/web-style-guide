@@ -437,6 +437,13 @@ nav[role="navigation"] {
   margin: 0 auto;
 }
 
+.img--logo {
+  @media #{$brk-narrow} {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 // Forms
 .form {
 

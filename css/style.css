@@ -321,6 +321,11 @@ nav[role="navigation"] {
   display: block;
   margin: 0 auto; }
 
+@media (max-width: 768px) {
+  .img--logo {
+    display: block;
+    margin: 0 auto; } }
+
 .form * {
   margin-bottom: 1em; }
 .form .btn--default {
