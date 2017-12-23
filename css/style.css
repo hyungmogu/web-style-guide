@@ -313,10 +313,18 @@ nav[role="navigation"] {
   border: solid 1px #A1A1A1;
   display: block;
   margin: 0 auto; }
+  @media (max-width: 454px) {
+    .img--frame {
+      width: 100%; } }
 
 .img--avatar {
   display: block;
   margin: 0 auto; }
+
+@media (max-width: 768px) {
+  .img--logo {
+    display: block;
+    margin: 0 auto; } }
 
 .form * {
   margin-bottom: 1em; }
