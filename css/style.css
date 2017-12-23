@@ -304,11 +304,11 @@ nav[role="navigation"] {
     .btn--warning {
       margin-bottom: 20px; } }
 
-#buttons ~ .grid__row .grid__col--12 {
+#buttons + .grid__row .grid__col--12 {
   display: flex;
   justify-content: space-between; }
   @media (max-width: 768px) {
-    #buttons ~ .grid__row .grid__col--12 {
+    #buttons + .grid__row .grid__col--12 {
       flex-direction: column;
       justify-content: none; } }
 

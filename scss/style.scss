@@ -413,7 +413,7 @@ nav[role="navigation"] {
 
 // Buttons - Style specifc to this UI Kit
 
-#buttons ~ .grid__row {
+#buttons + .grid__row {
   .grid__col--12 {
     display: flex;
     justify-content: space-between;
