@@ -1,0 +1,23 @@
+// Images
+.img--frame {
+  padding: 10px;
+  border: solid 1px #A1A1A1;
+  display: block;
+  margin: 0 auto;
+
+  @media #{$brk-mobile} {
+    width: 100%;
+  }
+}
+
+.img--avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+.img--logo {
+  @media #{$brk-narrow} {
+    display: block;
+    margin: 0 auto;
+  }
+}

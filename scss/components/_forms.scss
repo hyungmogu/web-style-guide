@@ -1,0 +1,23 @@
+// Forms
+.form {
+
+  * {
+    margin-bottom: 1em;
+  }
+
+  // this should be valid for all types of buttons
+  .btn--default {
+    width: 100%;
+  }
+}
+
+.form__input {
+  border-bottom: solid 5px $viking;
+  padding: 0 15px 10px 0;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.form__label--hidden {
+  display: none;
+}

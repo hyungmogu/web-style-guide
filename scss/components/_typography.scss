@@ -1,0 +1,27 @@
+// Link
+.link {
+  font-weight: bold;
+  color: $malibu;
+}
+
+.link:hover {
+  color: darken($malibu, 15%);
+}
+
+// Fonts
+.headline--primary {
+  color: $viking;
+}
+
+// blockquote
+
+.blockquote {
+  border-left: solid 6px $viking;
+  padding: 0 1.5em;
+  font-size: 1.75em;
+  font-style: italic;
+
+  @media #{$brk-narrow} {
+    padding: 0 0 0 1.0em;
+  }
+}
