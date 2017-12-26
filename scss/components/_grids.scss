@@ -10,227 +10,71 @@
   }
 }
 
-.grid__col--12 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 100%;
+@for $i from 1 through $g-col-count {
+    $target: ($g-col-width * $i);
+    $context: g-context($g-col-width, $g-col-count);
 
-  &.centered {
-    margin: 0 auto !important;
-  }
+    .grid__col--#{$i} {
+      padding: 10px 10px;
+      border-radius: 5px;
+      width: percentage($target /$context);
+      margin: 0 ($g-gutter-width/2);
 
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
+      @include col-props;
+    }
 }
 
-.grid__col--12.theme__colors {
-  background-color: $viking;
-  text-align: center;
-  justify-content: none;
-  display:block;
+.grid__col--12 {
+  &.theme__colors {
+    background-color: $viking;
+    text-align: center;
+  }
 }
 
 .grid__col--9 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 75%;
-  margin: 0 10px;
-
   &.centered {
     margin: 0 auto !important;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-
-}
-
-.grid__col--8.theme__colors {
-  text-align: center;
-}
-
-.grid__col--9:first-child {
-  margin-left: 0;
-}
-
-.grid__col--9:last-child {
-  margin-right: 0;
 }
 
 .grid__col--8 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 66.666666%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: $coral;
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.grid__col--8:first-child {
-  margin-left: 0;
-}
-
-.grid__col--8:last-child {
-  margin-right: 0;
-}
-
-.grid__col--8.theme__colors {
-  background-color: $coral;
-  text-align: center;
 }
 
 .grid__col--7 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 58.333333%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: lighten($sunglo, 10%);
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.grid__col--7:first-child {
-  margin-left: 0;
-}
-
-.grid__col--7:last-child {
-  margin-right: 0;
-}
-
-.grid__col--7.theme__colors {
-  background-color: lighten($sunglo, 10%);
-  text-align: center;
 }
 
 .grid__col--6 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 50%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: darken($malibu, 25%);
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.grid__col--6:first-child {
-  margin-left: 0;
-}
-
-.grid__col--6:last-child {
-  margin-right: 0;
-}
-
-.grid__col--6.theme__colors {
-  background-color: darken($malibu, 25%);
-  text-align: center;
 }
 
 .grid__col--5 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 41.66666666%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: $emerald;
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.grid__col--5:first-child {
-  margin-left: 0;
-}
-
-.grid__col--5:last-child {
-  margin-right: 0;
-}
-
-.grid__col--5.theme__colors {
-  background-color: $emerald;
-  text-align: center;
 }
 
 .grid__col--4 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 33.3333333%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: $malibu;
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.grid__col--4:first-child {
-  margin-left: 0;
-}
-
-.grid__col--4:last-child {
-  margin-right: 0;
-}
-
-.grid__col--4.theme__colors {
-  background-color: $malibu;
-  text-align: center;
 }
 
 .grid__col--3 {
-  padding: 10px 10px;
-  border-radius: 5px;
-  width: 40%;
-  margin: 0 10px;
-
-  &.centered {
-    margin: 0 auto !important;
+  &.theme__colors {
+    background-color: lighten($purple-mountain-majesty, 15%);
+    text-align: center;
   }
-
-  @media #{$brk-narrow} {
-      margin: 0;
-      width: 100%;
-  }
-}
-
-.grid__col--3:first-child {
-  margin-left: 0;
-}
-
-.grid__col--3:last-child {
-  margin-right: 0;
-}
-
-.grid__col--3.theme__colors {
-  background-color: lighten($purple-mountain-majesty, 15%);
-  text-align: center;
 }

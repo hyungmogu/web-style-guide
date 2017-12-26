@@ -8,12 +8,54 @@ $malibu: #51DDFC;
 $viking: #58E1C1;
 $silver-chalice: #757575;
 
-// Functional Colors
-$color-button-default: $coral;
-$color-button-success: $emerald;
-$color-button-error: $sunglo;
-$color-button-warning: $malibu;
-$color-button-info: $purple-mountain-majesty;
+// UI theme
+$ui-theme: (
+  default: $malibu,
+  info: $purple-mountain-majesty,
+  warning: $coral,
+  error: $sunglo,
+  success: $emerald
+);
+
+// $palette: (
+//   default: (
+//     xx-light: lighten(map-get($ui-theme, "default"), 25%),
+//     x-light: lighten(map-get($ui-theme, "default"), 10%),
+//     basic: lighten(map-get($ui-theme, "default"), 0%),
+//     x-dark: darken(map-get($ui-theme, "default"), 10%),
+//     xx-dark: darken(map-get($ui-theme, "default"), 25%)
+//   ),
+//   info: (
+//     xx-light: lighten(map-get($ui-theme, "info"), 25%),
+//     x-light: lighten(map-get($ui-theme, "info"), 10%),
+//     basic: lighten(map-get($ui-theme, "info"), 0%),
+//     x-dark: darken(map-get($ui-theme, "info"), 10%),
+//     xx-dark: darken(map-get($ui-theme, "info"), 25%)
+//   ),
+//   warning: (
+//     xx-light: lighten(map-get($ui-theme, "warning"), 25%),
+//     x-light: lighten(map-get($ui-theme, "warning"), 10%),
+//     basic: lighten(map-get($ui-theme, "warning"), 0%),
+//     x-dark: darken(map-get($ui-theme, "warning"), 10%),
+//     xx-dark: darken(map-get($ui-theme, "warning"), 25%)
+//   ),
+//   error: (
+//     xx-light: lighten(map-get($ui-theme, "error"), 25%),
+//     x-light: lighten(map-get($ui-theme, "error"), 10%),
+//     basic: lighten(map-get($ui-theme, "error"), 0%),
+//     x-dark: darken(map-get($ui-theme, "error"), 10%),
+//     xx-dark: darken(map-get($ui-theme, "error"), 25%)
+//   ),
+//   success: (
+//     xx-light: lighten(map-get($ui-theme, "sucess"), 25%),
+//     x-light: lighten(map-get($ui-theme, "sucess"), 10%),
+//     basic: lighten(map-get($ui-theme, "sucess"), 0%),
+//     x-dark: darken(map-get($ui-theme, "sucess"), 10%),
+//     xx-dark: darken(map-get($ui-theme, "sucess"), 25%)
+//   )
+// );
+
+// Texts
 
 $color-text-primary: $silver-chalice;
 
@@ -24,3 +66,8 @@ $stack-sans-serif: Helvetica, Arial, sans-serif;
 $brk-mobile: '(max-width: 454px)';
 $brk-narrow: '(max-width: 768px)';
 $brk-wide: '(max-width: 1400px)';
+
+// Grids
+$g-col-width: 15px;
+$g-gutter-width: 20px;
+$g-col-count: 12;
