@@ -485,7 +485,7 @@ template {
 
 .form__input {
   border-bottom: solid 5px #58E1C1;
-  padding: 0 15px 10px 0;
+  padding: 0 0 10px 0;
   width: 100%;
   margin-bottom: 1.5em; }
 
