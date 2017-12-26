@@ -1,0 +1,44 @@
+// Navigation
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+
+  @media #{$brk-narrow} {
+    flex-direction: column;
+  }
+}
+
+.nav__item {
+  margin: 0 10px;
+  &:first-child {
+    margin: 0;
+  }
+
+  &:last-child {
+    margin: 0;
+  }
+
+  @media #{$brk-narrow} {
+    margin: 0
+  }
+}
+
+.nav__item a {
+  color: $color-text-primary;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
+
+.nav__item a:hover {
+  color: white;
+  background-color: $viking;
+  border-radius: 5px;
+}
