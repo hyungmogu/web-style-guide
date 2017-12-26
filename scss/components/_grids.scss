@@ -11,8 +11,8 @@
 }
 
 @for $i from 1 through $g-col-count {
-    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
-    $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
+    $target: ($g-col-width * $i);
+    $context: g-context($g-col-width, $g-col-count);
 
     .grid__col--#{$i} {
       padding: 10px 10px;

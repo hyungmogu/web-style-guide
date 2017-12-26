@@ -1,7 +1,8 @@
 /*This file contains global variables, extends, mixins, and functions*/
 * {
   font-family: Helvetica, Arial, sans-serif;
-  color: #757575; }
+  color: #757575;
+  box-sizing: border-box; }
 
 a {
   text-decoration: none; }
@@ -503,7 +504,7 @@ template {
 .grid__col--1 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 3.75%;
+  width: 8.3333333333%;
   margin: 0 10px; }
   .grid__col--1.centered {
     margin: 0 auto !important; }
@@ -519,7 +520,7 @@ template {
 .grid__col--2 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 12.5%;
+  width: 16.6666666667%;
   margin: 0 10px; }
   .grid__col--2.centered {
     margin: 0 auto !important; }
@@ -535,7 +536,7 @@ template {
 .grid__col--3 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 21.25%;
+  width: 25%;
   margin: 0 10px; }
   .grid__col--3.centered {
     margin: 0 auto !important; }
@@ -551,7 +552,7 @@ template {
 .grid__col--4 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 30%;
+  width: 33.3333333333%;
   margin: 0 10px; }
   .grid__col--4.centered {
     margin: 0 auto !important; }
@@ -567,7 +568,7 @@ template {
 .grid__col--5 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 38.75%;
+  width: 41.6666666667%;
   margin: 0 10px; }
   .grid__col--5.centered {
     margin: 0 auto !important; }
@@ -583,7 +584,7 @@ template {
 .grid__col--6 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 47.5%;
+  width: 50%;
   margin: 0 10px; }
   .grid__col--6.centered {
     margin: 0 auto !important; }
@@ -599,7 +600,7 @@ template {
 .grid__col--7 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 56.25%;
+  width: 58.3333333333%;
   margin: 0 10px; }
   .grid__col--7.centered {
     margin: 0 auto !important; }
@@ -615,7 +616,7 @@ template {
 .grid__col--8 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 65%;
+  width: 66.6666666667%;
   margin: 0 10px; }
   .grid__col--8.centered {
     margin: 0 auto !important; }
@@ -631,7 +632,7 @@ template {
 .grid__col--9 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 73.75%;
+  width: 75%;
   margin: 0 10px; }
   .grid__col--9.centered {
     margin: 0 auto !important; }
@@ -647,7 +648,7 @@ template {
 .grid__col--10 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 82.5%;
+  width: 83.3333333333%;
   margin: 0 10px; }
   .grid__col--10.centered {
     margin: 0 auto !important; }
@@ -663,7 +664,7 @@ template {
 .grid__col--11 {
   padding: 10px 10px;
   border-radius: 5px;
-  width: 91.25%;
+  width: 91.6666666667%;
   margin: 0 10px; }
   .grid__col--11.centered {
     margin: 0 auto !important; }
