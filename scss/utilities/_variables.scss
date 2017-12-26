@@ -8,12 +8,16 @@ $malibu: #51DDFC;
 $viking: #58E1C1;
 $silver-chalice: #757575;
 
-// Functional Colors
-$color-button-default: $coral;
-$color-button-success: $emerald;
-$color-button-error: $sunglo;
-$color-button-warning: $malibu;
-$color-button-info: $purple-mountain-majesty;
+// UI theme
+$ui-theme: (
+  default: $malibu,
+  info: $purple-mountain-majesty,
+  warning: $coral,
+  error: $sunglo,
+  success: $emerald
+);
+
+// Texts
 
 $color-text-primary: $silver-chalice;
 
