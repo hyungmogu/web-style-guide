@@ -18,3 +18,22 @@
     }
   }
 }
+
+@mixin col-props {
+  &.centered {
+    margin: 0 auto !important;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media #{$brk-narrow} {
+    margin: 0;
+    width: 100%;
+  }
+}
