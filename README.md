@@ -1,7 +1,6 @@
 # Team Treehouse FETD 5th Project: Web Style Guide
 
-This is 5th project for Team Treehouse's Tech degree. Here, the author is assigned
-to build and refactor CSS3 codes using SASS.
+This is 5th project for Team Treehouse's Tech degree.
 
 The rubric of this project can be found here:
 https://drive.google.com/open?id=1EFBXVe23-DvBhsQYXKH_6y_ojHe7xvXj
